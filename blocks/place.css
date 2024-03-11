@@ -1,0 +1,260 @@
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.place__city {
+    max-width: 460px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px auto 48px;
+}
+
+.place__artist {
+    max-width: 456px;
+    margin-left: 40px;
+
+}
+
+.place__artist-url {
+    margin: 107px auto 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #AAAAAA;
+}
+
+.place__website-artist {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.place__image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.place__text-1 {
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.place__text-2 {
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+.button {
+    grid-area: button;
+    background: #0278fe;
+    color: #ffffff;
+    font-weight: 600;
+    width: 355px;
+    height: 48px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: #0063d2;
+    transition: 0.5s;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .place {
+        max-width: 733px;
+        margin: auto;
+        gap: 48px 26px;
+    }
+
+    .place__city  {
+        width: 100%;
+        margin: 0px;
+        font-size: 42px;
+        font-weight: 900;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    .place__artist {
+        margin: 0px;
+    }
+    .place__artist-url{
+        margin: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        text-align: left;
+    }
+    .place__website-artist{
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .place__image{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .place__text-1 {
+        margin: 0px 0px 25px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .place__text-2 {
+        margin: 0px 0px 25px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .form {
+        margin: auto;
+      }
+    
+      .button {
+        max-width: 355px;
+        font-size: 1.12rem;
+        border-radius: 4px;
+        margin: 0;
+      }
+}
+
+@media screen and (max-width:734px) {
+    .places {
+        width: 100vw;
+      }
+    
+      .place {
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        gap: 30px;
+      }
+      
+      .place__city {
+        margin-left: 16px;
+        margin-right: 16px;
+      }     
+
+      .place__artist {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+      
+      .place__text-1  {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .place__text-2 {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+
+      .form {
+        margin: auto;
+      }
+    
+      .button {
+        max-width: 355px;
+        font-size: 1.12rem;
+        border-radius: 4px;
+        margin: 0;
+        margin-bottom: 52px;
+      }
+}
+
+@media screen and (max-width: 544px) {
+    .place__city {
+        max-width: 288px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        text-align: left;
+        margin: 62px 16px 30px;
+    }
+
+    .place__artist {
+        max-width: 288px;
+    }
+
+    .place__artist-url{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        text-align: left;
+    }
+
+    .place__website-artist {
+        max-width: 288px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .place__text-1 {
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .place__text-2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .button {
+        max-width: 288px;
+        font-size: 0.87rem;
+        border-radius: 4px;
+        margin: 0 auto;
+      }
+}  

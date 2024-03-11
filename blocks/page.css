@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url(../static);
+}
+.page {
+    background: #2a2c2f;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1024px) {
+    }
+
+    @media screen and (max-width: 544px) {
+    }  
