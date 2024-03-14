@@ -239,6 +239,7 @@
 .photos {
   max-width: 1184px;
   margin: auto;
+  padding-left: 0px;
 }
 .photos__grid {
   list-style-type: none;
