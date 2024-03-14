@@ -248,6 +248,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   margin-bottom: 92px;
+  padding-left: 0px;
 }
 
 @media screen and (max-width: 1180px) {
